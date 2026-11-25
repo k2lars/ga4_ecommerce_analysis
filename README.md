@@ -1,7 +1,7 @@
 # ga4_ecommerce_analysis
 Analysis of GA4 sample ecommerce data (11/2020 - 01/2021)
 
-*Status: the analysis is complete. The Looker Studio dashboard and executive summary are next.*
+*Status: the analysis and Google Data Studio dashboard are complete. The executive summary is next.*
 
 ## About this project
 
@@ -88,7 +88,10 @@ At about 120 checkout starts a day, detecting a 3-point lift (95% confidence, 80
 
 The second query includes a few columns (`unique_device_types`, `unique_browsers` and `time_lapse`) that aren't used in the final output. I added them while investigating the repeats. The device and browser columns showed at most two of each per ID and no clear pattern, so they didn't change the finding.
 
+## Google Data Studio dashboard 
+
+https://datastudio.google.com/reporting/9c4cbb84-5080-447c-8f83-53215310d3f7
+
 ## Next
 
-Google Data Studio dashboard - (https://datastudio.google.com/reporting/9c4cbb84-5080-447c-8f83-53215310d3f7)
 - Write a short executive summary

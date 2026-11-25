@@ -90,5 +90,5 @@ The second query includes a few columns (`unique_device_types`, `unique_browsers
 
 ## Next
 
-- Build a one-page Looker Studio dashboard
+Google Data Studio dashboard - (https://datastudio.google.com/reporting/9c4cbb84-5080-447c-8f83-53215310d3f7)
 - Write a short executive summary

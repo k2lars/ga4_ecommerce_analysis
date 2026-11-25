@@ -59,7 +59,7 @@ The checkout-to-payment rate was similar on every device: 60.8% on desktop, 62.1
 
 ## Acquisition channel
 
-The `traffic_source` fields in the GA4 export describe how a user was first acquired, not the channel of each session, and about a fifth of users have an unusable medium (`<Other>` or deleted data). With that limit, conversion by first-touch medium was: referral 1.53%, direct 1.16%, organic 1.02%, paid search (cpc) 0.92%, `<Other>` 0.91%, and 2.84% for sessions with deleted data (`sql/07_funnel_by_medium.sql`). I don't draw conclusions from the deleted-data group because I can't tell who is in it. Payment-to-purchase was flat at 64% to 66% in every group, so the differences between channels sit at the checkout-to-payment step, which ranged from 52% to 81%.
+The `traffic_source` fields in the GA4 export describe how a user was first acquired, not the channel of each session, and about a fifth of users have an unusable medium (`<Other>` or deleted data). With that limit, conversion by first-touch medium was: referral 1.53%, direct 1.16%, organic 1.02%, paid search (ppc) 0.92%, `<Other>` 0.91%, and 2.84% for sessions with deleted data (`sql/07_funnel_by_medium.sql`). I don't draw conclusions from the deleted-data group because I can't tell who is in it. Payment-to-purchase was flat at 64% to 66% in every group, so the differences between channels sit at the checkout-to-payment step, which ranged from 52% to 81%.
 
 Paid search converts below all other sessions combined (0.92% against 1.25%, p of about 0.0002) but isn't distinguishable from organic. The dataset has no ad cost, so I can't say anything about return on ad spend.
 
